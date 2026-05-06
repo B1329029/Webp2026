@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background-color: #eeeeee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+/* 上方 */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 30px 60px;
+}
+
+.header h1 {
+  font-size: 60px;
+  color: #333;
+  font-weight: 300;
+}
+
+.logo {
+  width: 120px;
+}
+
+/* 中間紅字 */
+.title {
+  text-align: center;
+  margin-top: 80px;
+
+  font-size: 140px;
+  font-weight: bold;
+
+  color: red;
+
+  text-shadow:
+    2px 2px 5px rgba(255,0,0,0.5);
+}
+
+/* icon區 */
+.icon-group {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+  margin-top: 120px;
+}
+
+.icon {
+  font-size: 50px !important;
+  color: #3f51b5;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  color: #ff4081;
+}
